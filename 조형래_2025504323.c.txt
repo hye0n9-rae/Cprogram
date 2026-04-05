@@ -1,0 +1,115 @@
+﻿#include <stdio.h>
+
+
+int main()
+{        
+        
+        /* 실습1
+        int score = 70;                 // score 변수를 선언하고 70으로 초기화
+
+
+        score += 10;                    // score에 10을 더함 → score = 80
+        printf("10점 추가 후 :%d\n", score); // score 출력
+
+
+        score *= 2;                     // score를 2배로 만듦 → score = 160
+        printf("2배 후 : %d\n", score);     // score 출력
+
+
+        score /= 5;                     // score를 5로 나눔 → score = 32
+        printf("5명 평균 후:%d\n", score);  // score 출력
+
+
+        score %= 7;                     // score를 7로 나눈 나머지를 저장 → score = 4
+        printf("7로 나눈 나머지:%d\n", score); // score 출력
+
+
+        return 0;
+        */
+        
+        /*
+        int maxV, minV;                  // 최대값과 최소값을 저장할 변수 선언
+        int a = 900, b = 800;            // 두 정수 a와 b를 선언하고 각각 900, 800으로 초기화
+
+
+        maxV = (a > b) ? a : b;          // 삼항 연산자로 a와 b 중 큰 값을 maxV에 저장
+        minV = (a < b) ? a : b;          // 삼항 연산자로 a와 b 중 작은 값을 minV에 저장
+
+
+        printf("900과 800중에 더 큰 수:%d\n", maxV); // maxV 출력
+        printf("900과 800중에 더 작은 수: %d\n", minV); // minV 출력
+
+
+        return 0;
+        */
+        
+        
+        /*  예제1
+        int score;  // 학생 점수를 저장할 변수 선언
+        char grade; // 학점을 저장할 변수 선언
+
+
+        printf("학생의 점수를 입력하세요: ");  // 점수 입력 안내 출력
+        scanf("%d", &score);  // 사용자로부터 정수 점수를 입력받음
+
+
+        grade = (score >= 90) ? 'A' :          // 점수가 90 이상이면 'A'
+        (score >= 80) ? 'B' :          // 점수가 80 이상이면 'B'
+        (score >= 70) ? 'C' :          // 점수가 70 이상이면 'C'
+        (score >= 60) ? 'D' : 'F';     // 점수가 60 이상이면 'D', 나머지는 'F'
+
+
+        printf("학생의 점수를 입력하세요: ");  // 점수 입력 안내 출력
+        scanf("%d", &score);  // 사용자로부터 정수 점수를 입력받음
+
+
+        grade = (score >= 90) ? 'A' :          // 점수가 90 이상이면 'A'
+        (score >= 80) ? 'B' :          // 점수가 80 이상이면 'B'
+        (score >= 70) ? 'C' :          // 점수가 70 이상이면 'C'
+        (score >= 60) ? 'D' : 'F';     // 점수가 60 이상이면 'D', 나머지는 'F'
+
+
+        printf("학생의 점수를 입력하세요: ");  // 점수 입력 안내 출력
+        scanf("%d", &score);  // 사용자로부터 정수 점수를 입력받음
+
+
+        grade = (score >= 90) ? 'A' :          // 점수가 90 이상이면 'A'
+        (score >= 80) ? 'B' :          // 점수가 80 이상이면 'B'
+        (score >= 70) ? 'C' :          // 점수가 70 이상이면 'C'
+        (score >= 60) ? 'D' : 'F';     // 점수가 60 이상이면 'D', 나머지는 'F'
+
+
+        printf("학점: %c\n", grade);           // 최종 학점 출력
+
+
+        return 0;
+        */
+
+
+
+
+        /* 실습 2
+        int score, attendance;  // 점수와 출석률을 저장할 변수 선언
+
+
+        printf("점수를 입력하시오: ");  // 사용자에게 점수 입력 안내
+        scanf("%d", &score);            // 점수를 입력받아 score 변수에 저장
+
+
+        printf("출석률을 입력하시오: ");  // 사용자에게 출석률 입력 안내
+        scanf("%d", &attendance);         // 출석률을 입력받아 attendance 변수에 저장
+
+
+        // 점수가 60 이상이고 출석률이 80 이상이면 "합격", 아니면 "불합격" 출력
+        printf("%s\n", (score >= 60) && (attendance >= 80) ? "합격" : "불합격");
+
+
+        return 0;
+        */
+
+
+
+
+
+
+}
